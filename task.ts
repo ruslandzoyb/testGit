@@ -1,4 +1,4 @@
-class ExamplePlus {
+class Example {
     greeting: string;
 
     constructor(greeting: string) {
@@ -11,7 +11,7 @@ class ExamplePlus {
 }
 
 // Creating an instance of the Example class
-const exampleInstance = new ExamplePlus("Hello");
+const exampleInstance = new Example("Hello");
 
 // Calling the greet method
 const message = exampleInstance.greet("John");
